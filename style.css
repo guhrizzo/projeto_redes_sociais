@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    /*background-image: url(imagens/fundo-madeira.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    background-color: darkgreen;
+    background: url(imagens/fundo-madeira.jpg) no-repeat;
+    background-size: cover;
+}
+
+.phone{
+    width: 311px;
+    height: 627px;
+    background-color: blue;
+    background: url(imagens/frame-iphone.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/*#home{
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 473px;
+}*/
+
+iframe{
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 473px;
+    background-attachment: scroll;
+}
+
+section > a > img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 15px;
+    box-shadow: 2px 2px 15px rgb(0, 0, 0);
+    box-sizing: border-box;
+
+}
+
+section > a > img:hover {
+    border: 2px solid rgba(245, 222, 179, 0.623);
+    transform: translate(-3px, -3px);
+    transition: transform .5s
+
+}
+
+.redes_sociais{
+    text-align: right;
+}
